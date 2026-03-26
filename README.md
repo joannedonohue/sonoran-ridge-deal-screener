@@ -1,5 +1,7 @@
 # Private Fund — Deal Screener
 
+> **Disclaimer:** This is an anonymized sample project. The fund name, scoring weights, thesis parameters, and company data are illustrative only and do not represent a real investment model or fund.
+
 A Python-based investment research tool that takes a company name from a Pitchbook export, scores it against the fund's thesis criteria, and generates a one-page deal brief in seconds.
 
 Built to replace manual first-pass screening — what used to take a few hours of pulling founder backgrounds, funding history, and market comps across multiple tabs now runs in under 10 seconds per company.
@@ -142,8 +144,4 @@ The scoring model is intentionally simple and transparent. To adapt it:
 
 The CSV in `data/` uses synthetic company data modeled after real Pitchbook export formats. Fields, funding structures, and investor names are illustrative and not representative of actual companies.
 
----
 
-## Disclaimer
-
-This is an anonymized sample project. The fund name, scoring weights, thesis parameters, and company data are illustrative only and do not represent a real investment model or fund.

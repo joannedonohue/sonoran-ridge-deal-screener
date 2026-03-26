@@ -40,7 +40,7 @@ def generate_brief(row: pd.Series, scorecard: dict) -> str:
 
     lines = []
     lines.append(_divider("="))
-    lines.append(f"  SONORAN RIDGE CAPITAL  |  DEAL BRIEF")
+    lines.append(f"  PRIVATE FUND  |  DEAL BRIEF")
     lines.append(f"  Generated: {datetime.now().strftime('%b %d, %Y')}")
     lines.append(_divider("="))
 

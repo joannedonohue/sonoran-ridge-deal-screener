@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Sonoran Ridge Capital — Deal Screener
+Private Fund — Deal Screener
 ======================================
 Takes a company name from the Pitchbook export, scores it against
 the fund's investment criteria, and prints a one-page brief.
@@ -53,7 +53,7 @@ def run_batch() -> None:
     results.sort(key=lambda x: x["Score"], reverse=True)
 
     print("\n" + "═" * 90)
-    print("  SONORAN RIDGE CAPITAL  |  BATCH SCREEN RESULTS")
+    print("  PRIVATE FUND  |  BATCH SCREEN RESULTS")
     print("═" * 90)
     print(f"  {'Company':<30} {'Industry':<25} {'Stage':<12} {'Score':>6}  Recommendation")
     print("─" * 90)
@@ -76,7 +76,7 @@ def list_companies() -> None:
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Sonoran Ridge Capital deal screener"
+        description="Private Fund deal screener"
     )
     parser.add_argument(
         "company", nargs="?",
